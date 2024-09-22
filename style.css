@@ -1,0 +1,94 @@
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #333232;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+.button-link {
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #FFF;
+  background-color: #6c63ff;
+} /* Farbe von dem Text */
+.links  i {
+  color: #fffbfb;
+  margin-left: 5px; /* Abstand links zwischen Icon und Text */
+  margin-bottom: 25px;
+  margin-right: 0px; /* Abstand rechts zwischen Icon und Text */
+}
+.portfolio header .links {
+  /*display: flex;*/
+  align-items: center;
+}
+.container {
+  color: #cfcfcf;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: #525151;
+  width: 750px;
+}
+.container b {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: Nunito, sans-serif;
+}
+.container h2 {
+  font-family: Nunito, sans-serif;
+  font-size: 40px;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.container p {
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+}
+.container h4 {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-align: center;
+  font-style: italic;
+  font-family: Nunito, sans-serif;
+  color: #000000;
+}
+.links {
+  /*display: flex;*/
+  justify-content: center;
+}
